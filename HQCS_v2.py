@@ -59,9 +59,9 @@ except ImportError as exc:
     )
 
 PATHS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84_loto_2975.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84_loto_plus_1731.csv",
+    "/data/loto7_4706_k84.csv",
+    "/data/loto7_4706_k84_loto_2975.csv",
+    "/data/loto7_4706_k84_loto_plus_1731.csv",
 )
 
 N = 39
@@ -1444,7 +1444,7 @@ Ablacija koristi isti model sa praznom memorijom; nije zasebno obučen kontrolni
   PROVERA MODELA: Izrazito grupisanje: raspon u donjih 1% istorije.
   Rezultat zahteva proveru; nije zamenjen ili filtriran.
 
-NEXT [loto7_4706_k84.csv]: 01 04 06 08 10 12 14
+NEXT [loto7_4706_k84.csv]: 01 x 06 y 10 z 14
 Interna modelska masa=1.0178858781e-05. Nije potvrđena verovatnoća budućeg izvlačenja.
 
 
@@ -1624,7 +1624,7 @@ Ablacija koristi isti model sa praznom memorijom; nije zasebno obučen kontrolni
   PROVERA MODELA: Izrazito grupisanje: raspon u donjih 1% istorije.
   Rezultat zahteva proveru; nije zamenjen ili filtriran.
 
-NEXT [loto7_4706_k84_loto_2975.csv]: 07 08 10 12 14 16 18
+NEXT [loto7_4706_k84_loto_2975.csv]: 07 x 10 y 14 z 18
 Interna modelska masa=1.66197709939e-05. Nije potvrđena verovatnoća budućeg izvlačenja.
 
 
@@ -1792,7 +1792,7 @@ Ablacija koristi isti model sa praznom memorijom; nije zasebno obučen kontrolni
   Promena marginala pri promeni konteksta=0.208196557; isti maksimum u 2/4 dodatnih konteksta.
   Navedene dijagnostike nisu označile problem. To samo po sebi ne potvrđuje prediktivnu vrednost.
 
-NEXT [loto7_4706_k84_loto_plus_1731.csv]: 03 05 21 23 26 28 33
+NEXT [loto7_4706_k84_loto_plus_1731.csv]: 03 x 21 y 26 z 33
 Interna modelska masa=7.03284607795e-06. Nije potvrđena verovatnoća budućeg izvlačenja.
 
 Obrada sva tri CSV-a završena.
@@ -1834,7 +1834,7 @@ Bez zabrane razmaka +3 i bez forsiranja različitih kombinacija.
 
 
 
-V2 će učiti uslovnu raspodelu sledećeg kola pomoću MMD-a, a parametre birati prema uslovnom NLL-u na validaciji. 
+V2 uči uslovnu raspodelu sledećeg kola pomoću MMD-a, a parametre bira prema uslovnom NLL-u na validaciji. 
 Uklanjam inicijalizaciju koja zavisi od broja pozicije, proširujem kvantnu memoriju i dodajem praćenje maksimuma pre i tokom učenja. 
 Obrazac +3 i isti NEXT biće označeni za proveru, bez menjanja rezultata filterom.
 
