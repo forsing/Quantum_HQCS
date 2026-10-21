@@ -75,9 +75,9 @@ except ImportError as exc:
     )
 
 PATHS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84_loto_2975.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84_loto_plus_1731.csv",
+    "/data/loto7_4706_k84.csv",
+    "/data/loto7_4706_k84_loto_2975.csv",
+    "/data/loto7_4706_k84_loto_plus_1731.csv",
 )
 
 NUMBERS = 39
@@ -1304,7 +1304,7 @@ Pretraga: 0.0s, posećeni čvorovi=66,284.
   Ove dijagnostike nisu označile problem; to nije potvrda prediktivne vrednosti.
   Dijagnostike ne menjaju izabranu kombinaciju.
 
-NEXT [loto7_4706_k84.csv]: 19 22 25 28 31 34 37
+NEXT [loto7_4706_k84.csv]: 19 x 25 y 31 z 37
 Masa u naučenoj uslovnoj raspodeli: 7.29951926661e-05.
 To je interna modelska masa, ne potvrđena verovatnoća izvlačenja.
 
@@ -1447,7 +1447,7 @@ Pretraga: 0.0s, posećeni čvorovi=89,502.
   Ove dijagnostike nisu označile problem; to nije potvrda prediktivne vrednosti.
   Dijagnostike ne menjaju izabranu kombinaciju.
 
-NEXT [loto7_4706_k84_loto_2975.csv]: 19 22 25 28 31 34 37
+NEXT [loto7_4706_k84_loto_2975.csv]: 19 x 25 y 31 z 37
 Masa u naučenoj uslovnoj raspodeli: 5.45005370446e-05.
 To je interna modelska masa, ne potvrđena verovatnoća izvlačenja.
 
@@ -1570,7 +1570,7 @@ Pretraga: 0.0s, posećeni čvorovi=35,338.
   Ove dijagnostike nisu označile problem; to nije potvrda prediktivne vrednosti.
   Dijagnostike ne menjaju izabranu kombinaciju.
 
-NEXT [loto7_4706_k84_loto_plus_1731.csv]: 19 22 25 28 31 34 37
+NEXT [loto7_4706_k84_loto_plus_1731.csv]: 19 x 25 y 31 z 37
 Masa u naučenoj uslovnoj raspodeli: 0.000141296430959.
 To je interna modelska masa, ne potvrđena verovatnoća izvlačenja.
 
