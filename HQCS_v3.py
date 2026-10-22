@@ -58,9 +58,9 @@ except ImportError as exc:
     )
 
 PATHS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84_loto_2975.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4706_k84_loto_plus_1731.csv",
+    "/data/loto7_4706_k84.csv",
+    "/data/loto7_4706_k84_loto_2975.csv",
+    "/data/loto7_4706_k84_loto_plus_1731.csv",
 )
 
 N, K = 39, 7
@@ -1250,7 +1250,7 @@ Osetljivost marginala=0.086902477
 DIJAGNOSTIKA: Aritmetički podniz: (28, 30, 32, 34, 36, 38).
 DIJAGNOSTIKA: Svih sedam brojeva je u 20–39.
 DIJAGNOSTIKA: Raspon je u donjih 1% istorijskih raspona.
-NEXT [loto7_4706_k84.csv]: 27 28 30 32 34 36 38
+NEXT [loto7_4706_k84.csv]: 27 x 30 y 34 z 38
 Interna uslovna masa=1.71689725691e-06
 STATUS: model ima dijagnostička upozorenja; NEXT nije potvrđen kao kvalitetna predikcija.
 
@@ -1360,7 +1360,7 @@ Pretraga maksimuma cele legalne raspodele...
 Sirova legalna masa Z=1.44859954623e-05; normalizovana legalna masa=1; zbir marginala=7.0000000000; MAP čvorovi=2,768,987.
 Osetljivost marginala=0.1148029
 DIJAGNOSTIKA: Aritmetički podniz: (17, 19, 21, 23, 25, 27).
-NEXT [loto7_4706_k84_loto_2975.csv]: 17 19 21 23 25 27 34
+NEXT [loto7_4706_k84_loto_2975.csv]: 17 x 21 y 25 z 34
 Interna uslovna masa=1.39907668842e-06
 STATUS: model ima dijagnostička upozorenja; NEXT nije potvrđen kao kvalitetna predikcija.
 
@@ -1452,7 +1452,7 @@ Pretraga maksimuma cele legalne raspodele...
 Sirova legalna masa Z=1.17389809056e-05; normalizovana legalna masa=1; zbir marginala=7.0000000000; MAP čvorovi=2,591,598.
 Osetljivost marginala=0.20046729
 DIJAGNOSTIKA: Aritmetički podniz: (16, 18, 20, 22, 24, 26).
-NEXT [loto7_4706_k84_loto_plus_1731.csv]: 16 18 20 22 24 26 39
+NEXT [loto7_4706_k84_loto_plus_1731.csv]: 16 x 20 y 24 z 39
 Interna uslovna masa=1.5527542485e-06
 STATUS: model ima dijagnostička upozorenja; NEXT nije potvrđen kao kvalitetna predikcija.
 
